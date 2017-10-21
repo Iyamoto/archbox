@@ -1,2 +1,10 @@
-# archbox
-Arch Linux Box
+# Arch Linux Box
+
+## Install
+
+	vagrant up arch
+
+## TODO
+
+
+
