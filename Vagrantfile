@@ -9,7 +9,7 @@ Vagrant.configure("2") do |config|
   config.vm.define :arch do |arch|
     arch.vm.box = "archlinux/archlinux"
     arch.vm.provider "virtualbox" do |v|
-      v.memory = 2048
+      v.memory = 512
       v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]  	  
     end
     arch.vm.hostname = "arch"
